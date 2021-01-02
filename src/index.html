@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://use.fontawesome.com/6f8ca38869.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <video src="https://harryheman.github.io/meditationApp/src/video/rain.mp4" class="video" loop width="100%"
+            height="200%"></video>
+
+        <audio src="https://harryheman.github.io/meditationApp/src/audio/rain.mp3" class="audio" loop></audio>
+
+        <div class="menu">
+            <div class="menu__button">
+                <button class="menu__button-btn" value="2">2 minutes</button>
+                <button class="menu__button-btn" value="5">5 minutes</button>
+                <button class="menu__button-btn" value="10">10 minutes</button>
+            </div>
+            <div class="menu__play-container">
+                <div class="timer">
+                    <svg class="progress-ring" width="250" height="250">
+                        <circle class="progress-ring__circle" stroke="blue"
+                        stroke-width="10" cx="125" cy="125" r="120" fill="transparent"/>
+                    </svg>
+                    <div class="menu__play">
+                        <button class="menu__play-btn"><i class="fa fa-play" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="menu__play-timer">10:00</div>
+            </div>
+            <div class="menu__weather">
+                <button class="menu__weather-btn menu__weather-btn_cloud"><i class="fa fa-cloud"
+                        aria-hidden="true"></i></button>
+                <button class="menu__weather-btn menu__weather-btn_sun"><i class="fa fa-sun-o"
+                        aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>
